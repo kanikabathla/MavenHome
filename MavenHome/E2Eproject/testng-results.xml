@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-10-30T13:41:36Z" name="Suite" finished-at="2018-10-30T13:42:05Z" duration-ms="28239">
+    <groups>
+    </groups>
+    <test started-at="2018-10-30T13:41:36Z" name="Test" finished-at="2018-10-30T13:41:58Z" duration-ms="21345">
+      <class name="practice.HomePage">
+        <test-method is-config="true" signature="open()[pri:0, instance:practice.HomePage@7b02881e]" started-at="2018-10-30T13:41:36Z" name="open" finished-at="2018-10-30T13:41:42Z" duration-ms="5297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="login()[pri:0, instance:practice.HomePage@7b02881e]" started-at="2018-10-30T13:41:42Z" name="login" finished-at="2018-10-30T13:41:55Z" duration-ms="13546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="username(java.lang.String, java.lang.String)[pri:0, instance:practice.HomePage@7b02881e]" started-at="2018-10-30T13:41:55Z" name="username" data-provider="getData" finished-at="2018-10-30T13:41:58Z" duration-ms="2297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kanikabathla@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bathla123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- username -->
+        <test-method is-config="true" signature="close()[pri:0, instance:practice.HomePage@7b02881e]" started-at="2018-10-30T13:41:58Z" name="close" finished-at="2018-10-30T13:41:58Z" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- practice.HomePage -->
+    </test> <!-- Test -->
+    <test started-at="2018-10-30T13:41:58Z" name="Test1" finished-at="2018-10-30T13:42:05Z" duration-ms="6822">
+      <class name="practice.ValidateData">
+        <test-method is-config="true" signature="open()[pri:0, instance:practice.ValidateData@f2ff811]" started-at="2018-10-30T13:41:58Z" name="open" finished-at="2018-10-30T13:42:02Z" duration-ms="4396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="validation()[pri:0, instance:practice.ValidateData@f2ff811]" started-at="2018-10-30T13:42:02Z" name="validation" finished-at="2018-10-30T13:42:02Z" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation -->
+        <test-method is-config="true" signature="close()[pri:0, instance:practice.ValidateData@f2ff811]" started-at="2018-10-30T13:42:02Z" name="close" finished-at="2018-10-30T13:42:05Z" duration-ms="2334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- practice.ValidateData -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
